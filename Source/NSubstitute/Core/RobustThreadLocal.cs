@@ -1,4 +1,6 @@
-﻿using System;
+﻿#if !NET45
+
+using System;
 using System.Threading;
 
 namespace NSubstitute.Core
@@ -29,3 +31,5 @@ namespace NSubstitute.Core
         }
     }
 }
+
+#endif
